@@ -286,7 +286,9 @@ namespace Analysis.PCA
             Close();
         }
 
+        private void dgvFeatureVectors_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
-
+        }
     }
 }
