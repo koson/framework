@@ -3,10 +3,10 @@
 [![DOI](https://zenodo.org/badge/3964514.svg)](https://zenodo.org/badge/latestdoi/3964514)
 [![Build status](https://ci.appveyor.com/api/projects/status/ns9h9opjmu8iw3ep?svg=true)](https://ci.appveyor.com/project/cesarsouza/framework)
 [![Build Status](https://travis-ci.org/accord-net/framework.svg?branch=development)](https://travis-ci.org/accord-net/framework)
-[![NuGet Downloads](https://img.shields.io/nuget/dt/Accord.svg)]()
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Accord.svg)](https://www.nuget.org/packages/Accord/)
 [![License](https://img.shields.io/badge/license-LGPL--2.1-blue.svg)](LICENSE)
-[![NuGet](https://img.shields.io/nuget/v/Accord.svg)]()
-[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Accord.svg)]()
+[![NuGet](https://img.shields.io/nuget/v/Accord.svg)](https://www.nuget.org/packages/Accord/)
+[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Accord.svg)](https://www.nuget.org/packages/Accord/)
 
 The Accord.NET project provides machine learning, statistics, artificial intelligence, computer vision and image processing methods to .NET. It can be used on Microsoft Windows, Xamarin, Unity3D, Windows Store applications, Linux or mobile.
 
@@ -18,6 +18,7 @@ After merging with the AForge.NET project, the framework now offers a unified AP
 
 For more information, please see the [getting started guide](https://github.com/accord-net/framework/wiki/Getting-started), and check [the classfication wiki](https://github.com/accord-net/framework/wiki/Classification). *Please do not hesitate to edit the wiki if you would like!*
 
+**Update (10/05/2020):** Please see the [current status section](https://github.com/accord-net/framework#current-status) below before you start using this library in any new projects.
 
 # Installing
 
@@ -111,6 +112,30 @@ Donate using cryptocurrencies:
 Note: all donations are 100% invested towards improving the framework, including, but not limited to, the hiring of extra developers to work on issues currently present at the project's issue tracker. If you would like to donate resources towards the development of a particular issue, please let us know!
 
 Join the chat at https://gitter.im/accord-net/framework - but to have issues and questions answered, [post it as an issue](https://github.com/accord-net/framework/issues).
+
+# Current status
+
+Before you decide to use the framework for new projects, please see the following personal note below.
+
+>
+> I am writing this note to give an official status for the project.
+>
+> This project has certainly been the most important thing I have ever created, but I could not keep up with maintaining it as well as I wanted. This project allowed me to achieve the biggest dream I had, and that I never though I would have been able to achieve in my life, which was (some may laugh and possibly not understand) starting a life and career in Europe. 
+> 
+> For about 10 years, I had worked on this project almost every day of my life.
+> 
+> But with the new life, came new steps to be climbed, I had new responsabilities and things to go. Then I started a PhD and had to focus on it so I could not keep up maintaining the library. I even tried to hire freelance developers to help, and it worked to some extent, but at some point I did not have the resources anymore. Eventually, I developed anxiety of even opening the issues page or checking my e-mails because I feel I might have left so many people behind. Next, a few months before my defense, Microsoft announced that they wanted to make ML.net, **meaning that Accord.NET would eventually become obsolete** as ML.net should become the de-facto ML library for .NET.
+> 
+> In addition, I've also published in, and attended, the most important machine learning conferences in the world, and in academia, no one has ever heard of the framework. People may even laugh or mistreat you if you mention you have developed something in C# for machine learning, as everyone (understandably) uses Python (I myself only use Python to do my work, and while I love C#/.NET, there is nothing that can compete with Python/Pytorch). 
+
+> In the past months, I have been pondering about archiving the project. To avoid that, **I am willing to make someone who would like, also an administrator of the project**.
+> 
+> I am also willing to change the license of any file where I am the single author (you can check the copyright headers in each file) to **MIT** so people can reuse individual pieces of code more easily. Anyone who becomes administrator is welcome to slice the parts of the project that still make sense to exist (e.g., the FFmpeg wrappers, statistical distributions, statistical tests and the simple transforms like PCA) and even start new libraries (hopefully in .NET Core) providing only them if wanted.
+>
+> Also, when I started this project back in 2007 (and when the original AForge library started, even way before that), there were almost no other libraries we could built upon, so we had to do start almost everything from scratch. This is not the case anymore. Any new libraries coming out of this project should **definitely reuse existing libraries for basic tasks such as matrix operations and image processing**.
+> 
+> Cesar De Souza  
+> 10-May-2020
 
 
 # Citing
